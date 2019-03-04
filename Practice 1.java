@@ -13,7 +13,7 @@ public class Practice {
         double h = s.nextDouble();
         double IdealMassWoman =  h - 110;
         double IdealMassMan =  h - 100;
-         System.out.println("Введите свой пол");
+         System.out.println("Введите свой пол:");
          System.out.println("1-Женщина");
          System.out.println("2-Мужчина");
         int sex = s.nextInt();
