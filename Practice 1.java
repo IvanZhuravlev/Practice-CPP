@@ -20,10 +20,10 @@ public class Practice {
         switch (sex){
             case(1):
         if (w > IdealMassWoman) {
-  System.out.println("Вам необходимо похудеть на "+(w-IdealMassWoman)+"кг");
+  System.out.println("Вам необходимо похудеть на "+String.format("%.2f",(w-IdealMassWoman))+"кг");
         }
         else if (w<IdealMassWoman) {
-  System.out.println("Вам необходимо поправиться на "+(IdealMassWoman-w)+"кг");
+  System.out.println("Вам необходимо поправиться на "+String.format("%.2f",(IdealMassWoman-w))+"кг");
  }
         else  if (w == IdealMassWoman){
      System.out.println("Ваш вес оптимальный");
@@ -31,10 +31,10 @@ public class Practice {
         break;
         case (2):
         if (w > IdealMassMan) {
-  System.out.println("Вам необходимо похудеть на "+(w-IdealMassMan)+"кг");
+  System.out.println("Вам необходимо похудеть на "+String.format("%.2f",(w-IdealMassMan))+"кг");
         }
         else if (w<IdealMassMan) {
-  System.out.println("Вам необходимо поправиться на "+(IdealMassMan-w)+"кг");
+  System.out.println("Вам необходимо поправиться на "+String.format("%.2f",(IdealMassMan-w))+"кг");
  }
         else  if (w == IdealMassMan){
      System.out.println("Ваш вес оптимальный");
