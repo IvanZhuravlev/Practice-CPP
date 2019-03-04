@@ -1,4 +1,5 @@
 package practice;
+import javax.swing.JOptionPane;
 import java.util.Scanner;
 public class Practice {
      double w;
